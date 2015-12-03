@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+		<head>
+			<title>FAQ</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1"/>
+			<link rel="stylesheet" href="css/bootstrap.min.css"/>
+			<link rel="stylesheet" href="css/style.css"/>
+			<link rel="shortcut icon" href="heart3.png" type="image/png" sizes="16x16"/>
+			<script src="js/functions.js" type="text/javascript"></script>
+		
+		
+		</head>
+			
+	<body>
+			
+			<div class="navbar-fixed-top navbar-inverse" id="home">
+				<div class="container">
+					<div class="navbar-header">
+						<p class="title">Heart-Health</p>
+					</div>
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+						Menu
+					</button>
+					<div class="collapse navbar-collapse navHeaderCollapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="faq.html">FAQ</a></li>
+							<li><a href="self_assessment.html">Self Assessment</a></li>
+							<li><a href="further_information.html">Further Information</a></li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			<div class="jumbotron" id="top">
+				<div class="container">
+					<div class="col-md-6">
+						<img src="heart.jpg" class="img-responsive" alt="heart" title="heart"/>
+					</div>
+						
+						<br/>
+						<br/>
+						<br/>
+						
+						
+						
+					<div class="col-md-6">
+						<h1 class="text-right">FAQ</h1>
+					</div>
+					
+				</div>
+			</div>
+			
+		<div class="alt1">
+			<div class="container">
+					  
+					  <h3>Leading causes of death worldwide in <select id="yearDropdown" onchange="changeStatistics();">
+						  <option>Year</option>
+						  <option>2014</option>
+						  <option>2013</option>
+						  <option>2012</option>
+						  <option>2011</option>
+						</select></h3>
+					  
+					  <br/>
+					  <br/>
+					  
+					<table class="table">
+						<thead>
+						  <tr>
+							<th>Cause of death</th>
+							<th>Number of deaths</th>
+							
+						  </tr>
+						</thead>
+						
+						<tbody>
+						  <tr>
+							<td>Heart disease</td>
+							<td id="heartStatistic"> </td>
+							
+						  </tr>
+						  <tr>
+							<td>Stroke</td>
+							<td id="strokeStatistic"></td>
+							
+						  </tr>
+						  <tr>
+							<td>Pulmonary disease</td>
+							<td id="pulmonaryStatistic"></td>
+							
+						  </tr>
+						</tbody>
+					</table>
+				</div>
+				
+				<hr>
+				<br>
+				
+				
+				
+				
+			
+			<button type="button" class="btn btn-primary btn-lg btn-block" id="faqButton">Click here for FAQ</button>
+			<br/>
+			<br/>
+			
+
+			<div class="faq" >
+				<div class="dropdown">
+					<button class="btn btn-primary dropdown-toggle btn-lg btn-block" type="button" data-toggle="dropdown">How many people die from heart disease each year?<span class="caret"></span></button>
+						<ul class="dropdown-menu">
+							<li><h4>Over 17 million people die from cardiovascular related diseases every year.</h4></li>
+					  
+						</ul>
+				</div>
+			</div>
+			
+			<br>
+			<br>
+			<br>
+			<br>
+			
+			
+			<div class="container">
+				<div class="col-md-7">
+					<img src="question_mark.png" class="img-responsive" id="question_mark" alt="question_mark" title="question_mark"/>
+							
+				</div>
+			</div>
+			
+			
+			<div class="faq">
+				<div class="dropdown">
+					<button class="btn btn-primary dropdown-toggle btn-lg btn-block" type="button" data-toggle="dropdown">What are the leading causes of heart disease?<span class="caret"></span></button>
+					
+					<ul class="dropdown-menu">
+					  <li><h4>Smoking, lack of exercise and a poor diet remain some of the leading causes of heart disease.
+						  This leads to the narrowing and thickening of the arteries, caused by the build up of cholesterol
+						  and other fatty material. The rupture of these can cause a heart attack.</h4>
+						  
+					  </li>
+					  
+					</ul>
+				</div>
+			</div>
+			
+			<br>
+			<br>
+			<br>
+			<br>
+			
+			<div class="faq">
+				<div class="dropdown">
+					<button class="btn btn-primary dropdown-toggle btn-lg btn-block" type="button" data-toggle="dropdown">How is heart disease diagnosed?<span class="caret"></span></button>
+					
+					<ul class="dropdown-menu">
+					  <li><h4>Usually, a doctor will conduct a examination called an electrocardiogram, measuring,
+					      among others, the electrical activity of your heart and the rate and regularity of your heartbeats.</h4>
+					      
+						  
+					  </li>
+					  
+					</ul>
+				</div>
+			</div>
+			
+			<br>
+			<br>
+			<br>
+			<br>
+			
+			<div class="faq">
+				<div class="dropdown">
+					<button class="btn btn-primary dropdown-toggle btn-lg btn-block" type="button" data-toggle="dropdown">How does smoking affect the heart?<span class="caret"></span></button>
+					
+					<ul class="dropdown-menu">
+					  <li><h4>Smoking causes damage to the lining of the blood vessels, increases blood clotting and increases
+					      the build-up of fatty deposits in the arteries. Nicotine raises blood pressure and accelerates your
+						  heart rate.
+					      </h4>
+						  
+					  </li>
+					  
+					</ul>
+				</div>
+			</div>
+			
+			<br>
+			<br>
+			<br>
+			<br>
+			
+			<div class="faq">
+				<div class="dropdown">
+					<button class="btn btn-primary dropdown-toggle btn-lg btn-block" type="button" data-toggle="dropdown">What are some symptoms of heart disease?<span class="caret"></span></button>
+					
+					<ul class="dropdown-menu">
+					  <li><h4>Chest pain, a fast or irregular heart beat or discomfort radiating to the back, jaw, throat, or arm.</h4>
+					      
+						  
+					  </li>
+					  
+					</ul>
+				</div>
+			</div>
+			
+			<br>
+			<br>
+			<br>
+			<br>
+			
+			<div class="faq">
+				<div class="dropdown">
+					<button class="btn btn-primary dropdown-toggle btn-lg btn-block" type="button" data-toggle="dropdown">What changes can I make to my diet to reduce my risk?<span class="caret"></span></button>
+					
+					<ul class="dropdown-menu">
+					  <li><h4>To reduce your risk you should:
+						
+						   Eat leaner sources of protein such as chicken and fish,
+						   Limit cholesterol intake and 
+						   Increase your intake of fruit and vegetables
+					      </h4>
+						  
+					  </li>
+					  
+					</ul>
+				</div>
+				
+				<br>
+				<br>
+				<br>
+			
+			</div>
+			
+			
+				
+				
+		</div>
+			
+			
+				
+				
+			
+				
+			
+				<div class="alt2">
+					<div class="container">
+						<footer>&copy; Stuart Carroll - November 2015<br/><br/>
+						Contact me : stuartcarroll91@gmail.com<br/><br/>
+						<a href="#top" class="back_to_top">Back to top</a>
+						</footer>
+					</div>
+				</div>
+				
+				<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+				
+				<script src="js/bootstrap.js"></script>
+				
+				<script>
+											$(function() {
+						  $('a[href*=#]:not([href=#])').click(function() {
+							if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+							  var target = $(this.hash);
+							  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+							  if (target.length) {
+								$('html,body').animate({
+								  scrollTop: target.offset().top
+								}, 1000);
+								return false;
+							  }
+							}
+						  });
+						});
+				</script>
+				
+				<script>
+					$(document).ready(function()
+					{
+						$("button").click(function(){
+							$("#faqButton").hide(1000);
+							$("#question_mark").hide(1000);
+							$(".faq").fadeIn(3000);
+						});
+					});
+				</script>
+				
+				<script>
+					$(document).ready(function(){
+						
+						$("yearDropdown").click(function(){
+							$("#heartStatistic").hide;
+						});
+					});
+				</script>
+		
+	</body>
+			
+</html>
